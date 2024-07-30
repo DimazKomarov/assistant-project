@@ -14,3 +14,13 @@
 # Хэш
 
 # Статусы и жизненный цикл файлов в Git
+
+#  mermaid-схема
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+```
